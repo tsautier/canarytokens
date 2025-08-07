@@ -29,12 +29,12 @@ _ASSET_TYPE_CONFIG = {
     AWSInfraAssetType.S3_BUCKET: AssetTypeConfig(
         10, AWSInfraAssetField.BUCKET_NAME, AWSInfraAssetField.OBJECTS, 20
     ),
-    AWSInfraAssetType.SQS_QUEUE: AssetTypeConfig(10, AWSInfraAssetField.SQS_QUEUE_NAME),
+    AWSInfraAssetType.SQS_QUEUE: AssetTypeConfig(5, AWSInfraAssetField.SQS_QUEUE_NAME),
     AWSInfraAssetType.SSM_PARAMETER: AssetTypeConfig(
         10, AWSInfraAssetField.SSM_PARAMETER_NAME
     ),
     AWSInfraAssetType.SECRETS_MANAGER_SECRET: AssetTypeConfig(
-        10, AWSInfraAssetField.SECRET_NAME
+        5, AWSInfraAssetField.SECRET_NAME
     ),
     AWSInfraAssetType.DYNAMO_DB_TABLE: AssetTypeConfig(
         10, AWSInfraAssetField.TABLE_NAME, AWSInfraAssetField.TABLE_ITEMS, 20
